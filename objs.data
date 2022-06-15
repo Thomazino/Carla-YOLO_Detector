@@ -1,6 +1,0 @@
-classes= 2
-train  = data/train_photos.txt
-names = data/objs.names
-backup = backup/
-
-
