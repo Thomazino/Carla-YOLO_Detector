@@ -13,10 +13,10 @@ def darknet(message):
     return process
 
 
-message = 'Darknet Started'
-darknet_process = darknet(message)
 
 def predict_labels():
+    message = 'Darknet Started'
+    darknet_process = darknet(message)
     for i in range(1,7290):
         print(i)
         carla_scene = (f"C:/Users/User/Desktop/objs/Photo{i}.jpg".encode())
