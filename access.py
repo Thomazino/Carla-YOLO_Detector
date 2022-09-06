@@ -91,7 +91,7 @@ def calculate_accuracy_for_no_detection():
     print(correct/6055)
 
 
-def access_datas():s
+def access_datas():
     line=""
     L=[] 
     path='C:/Yolo_v4/darknet/build/darknet/x64/data/objs/'
